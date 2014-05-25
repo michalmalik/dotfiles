@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-various config files I've made according to my needs
+various config files and scripts I've made according to my needs
