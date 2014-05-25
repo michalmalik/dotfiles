@@ -1,0 +1,44 @@
+<F1>                            help
+<F3>                            display_file
+<F4>                            edit
+<F5>                            copy
+<F6>                            cut
+<F7>                            console mkdir
+<F8>                            console delete
+<F10>                           exit
+
+gh                              cd ~
+ge                              cd /etc
+gu                              cd /usr
+gM                              cd /mnt
+gr                              cd /
+
+<Space>                         mark_files toggle=True
+t                               tag_toggle
+ut                              tag_remove
+v                               mark_files all=True toggle=True
+zh                              show hidden files
+
+E                               edit
+du                              du --max-depth=1 -h --apparent-size
+cw                              console rename
+dd                              cut
+yy                              copy
+pp                              paste
+
+ds                              disasm %1 (objdump -D -M %1)
+dh                              hexdump %1 (hexdump -C -n %1)
+ea                              elfinfo all (readelf -a)
+eh                              elfinfo headers (readelf -e)
+es                              elfinfo symbols (readelf -s)
+ed                              elfinfo dump %1 (readelf -x %1)
+md5sum                 
+sha256sum                  
+sha512sum
+
+<C-n>                           tab_new
+<C-w>                           tab_close
+gc                              tab_close
+<TAB>                           tab_move 1
+gt                              tab_move 
+gc                              tab_close

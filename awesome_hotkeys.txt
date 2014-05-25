@@ -1,0 +1,32 @@
+mod4 + Left                             Next tag
+mod4 + Right                            Previous tag
+mod4 + Escape                           Restore tag history
+mod4 + Shift + #num                     Switch tag to #num
+mod4 + Control + #num                   Merge current tag with #num
+mod4 + Space                            Switch tag layout
+
+mod4 + Tab                              Next screen
+mod4 + S                                Show index of the current screen
+
+mod1 + Tab                              Next window
+mod1 + Shift + Tab                      Previous window
+mod4 + O                                Move window to the next screen
+mod4 + F                                Fullscreen the window (removes the titlebar if existent)
+mod4 + T                                Add/Remove window titlebar
+mod4 + Control + Space                  Toggle floating
+mod4 + N                                Minimize the window
+mod4 + M                                Maximize the window
+mod4 + Shift + Q                        Kill the window
+
+mod4 + W                                AwesomeWM menu
+mouse2                                  AwesomeWM menu
+mod4 + E                                CMUS menu
+mod4 + Return                           Spawn terminal
+mod4 + Shift + W			Spawn web browser (x-www-browser)
+mod4 + Shift + F                        Spawn file manager
+mod4 + Shift + E                        Spawn editor
+mod4 + Control + E                      Edit AwesomeWM config
+mod4 + Control + V                      Edit VIM config
+mod4 + Control + R                      Restart AwesomeWM
+mod4 + Control + Q                      Quit AwesomeWM
+
